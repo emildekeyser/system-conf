@@ -1,0 +1,11 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Operation = Remove
+Type = Package
+Target = glibc
+
+[Action]
+Description = Generate my locale
+When = PostTransaction
+Exec = /usr/bin/localedef -i en_US -f UTF-8 en_US.UTF-8

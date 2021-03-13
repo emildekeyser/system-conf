@@ -1,0 +1,2 @@
+#!/bin/sh
+HOME=/home/user1 UNISON=/home/user1/.local/unison exec chpst -u user1 unison -socket 10000 2>&1

@@ -1,0 +1,5 @@
+#!/bin/sh
+sv check dbus || exit 1
+sv check jera-wpa_supplicant || exit 1
+
+exec NetworkManager --no-daemon 2>&1

@@ -1,0 +1,12 @@
+#!/bin/sh -e
+
+svname=jera-NetworkManager
+
+if [ ! -d /var/log/$svname ]
+then
+    mkdir /var/log/$svname
+    chown root:root /var/log/$svname
+    chmod 700 /var/log/$svname
+fi
+
+exec svlogd -tt /var/log/$svname

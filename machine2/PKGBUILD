@@ -1,0 +1,16 @@
+# Maintainer: user1 <user1@machine1.local>
+pkgname=jera-config-machine2
+pkgver=1
+pkgrel=1615656563
+pkgdesc="All files needed for machine2"
+url="http://machine1.local"
+arch=("any")
+license=('GPL')
+# depends=()
+# makedepends=()
+source=("source.tar")
+md5sums=('SKIP')
+
+package() {
+  cp -r etc ${pkgdir}/
+}

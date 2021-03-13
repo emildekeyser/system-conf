@@ -1,0 +1,12 @@
+jera-config
+jera-secrets
+jera-config-machine1
+openrc
+openrc-zsh-completions
+at-openrc
+metalog-openrc
+nfs-utils-openrc
+openssh-openrc
+fcron-openrc
+dhcpcd-openrc
+tor-openrc

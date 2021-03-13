@@ -1,0 +1,8 @@
+Cmnd_Alias	REBOOT = /sbin/halt, /sbin/reboot, /sbin/poweroff
+
+## allow members of group wheel to execute any command as root
+%wheel ALL=(ALL) ALL
+Defaults timestamp_timeout=-1
+
+## allow members of group wheel to execute given commands without a password
+%wheel ALL=(ALL) NOPASSWD: REBOOT
