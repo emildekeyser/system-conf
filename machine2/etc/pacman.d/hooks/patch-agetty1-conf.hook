@@ -1,0 +1,11 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Operation = Remove
+Type = Package
+Target = jera-config-machine2
+
+[Action]
+Description = Patch /etc/runit/sv/agetty-tty1/conf
+When = PostTransaction
+Exec = /usr/bin/bash -c "patch --forward --reject-file=/dev/null --input=/etc/jera-patches/agetty-tty1.patch /etc/runit/sv/agetty-tty1/conf ; exit 0"

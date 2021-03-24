@@ -7,6 +7,5 @@ at-openrc
 metalog-openrc
 nfs-utils-openrc
 openssh-openrc
-fcron-openrc
 dhcpcd-openrc
 tor-openrc

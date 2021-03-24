@@ -8,4 +8,4 @@ Target = jera-config
 [Action]
 Description = Enable %include in torrc.
 When = PostTransaction
-Exec = /usr/bin/sed -i 's:^#%include /etc/torrc.custom$:%include /etc/torrc.custom:' /etc/tor/torrc
+Exec = /usr/bin/sed -i 's:^#%include /etc/tor/torrc.custom$:%include /etc/tor/torrc.custom:' /etc/tor/torrc

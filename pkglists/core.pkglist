@@ -14,7 +14,6 @@ curl
 curlftpfs
 detox
 dos2unix
-fcron
 figlet
 figlet-fonts
 file
@@ -101,5 +100,7 @@ shntool
 lynx
 pkgfile
 rclone
-websocketd-git
 words
+stress
+uriparser
+scron-git

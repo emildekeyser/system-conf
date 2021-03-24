@@ -48,3 +48,4 @@ btpd-git
 can-utils-git
 mosquitto
 python-virtualenv
+websocketd-git

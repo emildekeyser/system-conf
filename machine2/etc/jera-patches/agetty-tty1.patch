@@ -1,0 +1,8 @@
+--- /etc/runit/sv/agetty-tty1/conf	2020-09-30 11:20:54.000000000 +0200
++++ /etc/runit/sv/agetty-tty1/conf-patched	2021-03-23 07:52:28.362339617 +0100
+@@ -7,3 +7,5 @@
+ 
+ BAUD_RATE=38400
+ TERM_NAME=linux
++
++GETTY_ARGS+=" --skip-login --login-options user1"
