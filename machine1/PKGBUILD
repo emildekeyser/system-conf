@@ -1,7 +1,7 @@
 # Maintainer: user1 <user1@machine1.local>
 pkgname=jera-config-machine1
 pkgver=1
-pkgrel=1616228838
+pkgrel=1616587297
 pkgdesc="All files needed for machine1"
 url="http://machine1.local"
 arch=("any")
